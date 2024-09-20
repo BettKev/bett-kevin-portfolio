@@ -1,0 +1,203 @@
+/*border around everything to help in styling*/
+/* *{
+    border: 2px solid white;
+} */
+
+/* body styling */
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(37, 36, 36);
+    color: white;
+    width: 100%;
+}
+
+/* Top header styling */
+
+/* Make the flex responsive */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column; /* Stacks elements on smaller screens */
+        align-items: flex-start;
+        width: 100%;
+        padding-top: 0;
+    }
+}
+
+#header{
+    width:100%;
+    text-wrap: nowrap;
+    background: rgb(177, 168, 168);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav a:hover{
+    background: black;
+    border-radius: 50px;
+    box-shadow: 5px 5px white;
+}
+
+/* Info section styling */
+/* split info section into 2 columns 1 row grid */
+#info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*Creates two columns of equal width*/
+    height: 60%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    gap: 5%;
+    margin: 5px auto;
+    /* background: grey; */
+}
+
+ .description{
+    width: 95%;
+    margin: 0 5%;
+    left: 0;
+    padding-top: 5%;
+}
+
+.description h2, p, blockquote{
+    padding: 0 2%;
+    text-align: center;
+}
+
+.description p, blockquote{
+    font-size: 18px;
+}
+
+#info .avatar{
+    width: 95%;
+    right: 0;
+    padding: 0 2%;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    font-size: larger;
+    border-radius: 50px;
+    border: none;
+}
+
+img{
+    border-radius: 50px;
+    box-shadow: -20px -20px 100px rgb(247, 245, 245);
+    margin-top: 50px;
+}
+
+/* Make the grid responsive */
+@media (max-width: 900px) {
+    #info {
+        grid-template-columns: 1fr; /* Stacks columns on smaller screens */
+        margin-bottom: 10px;
+    }
+}
+
+/* About section styling */
+#about{
+    margin: 1% auto 0 auto;
+    padding-top: 5%;
+}
+
+#about p{
+    /* color: red; */
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/* split about me section into 2 columns 1 row grid */
+#about-me{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /*Creates two columns of equal width*/
+        height: 300px;
+        padding: 2% 0;
+        gap: 5%;
+        margin: 0px auto;
+        /* background: grey; */
+    }
+    
+#about-me .edu h3, .work h3{
+    /* color:red; */
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#about-me .edu ul, .work ol{
+    list-style: none;
+    text-indent: 10%;
+}
+
+/* projects section styling */
+#projects{
+    margin: 1% auto 0 auto;
+    padding-top: 5%;
+}
+
+#projects p{
+    /* color: red; */
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/* split projects section into 2 columns 1 row grid */
+#proj{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*Creates two columns of equal width*/
+    padding: 2% 0;
+    gap: 5%;
+    margin: 0px auto;
+    /* background: grey; */
+}
+
+#proj a{
+    text-decoration: none;
+    color: white;
+}
+
+/* start of bottom links styling */
+#linkup{
+    /* position: sticky;
+    bottom: 0; */ 
+    background: grey;
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+
+#linkup p{
+    font-size: medium;
+    font-weight: bolder;
+    text-indent: left;
+    padding: 0;
+}
+
+#linkup a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
