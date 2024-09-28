@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-   <link rel="stylesheet" href="./css/main.css">
-   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   <!-- <link rel="stylesheet" href="./css/main.css"> -->
+   <!-- <link rel="stylesheet" href="" class="./css/style.css"> -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
 </head>
 
-<body>
+<body class="bg-yellow-300">
 
     <!--Top of page  -->
-    <section id="header">
-        <div>
+    <section class="flex bg-green-200">
+        <div class="grow bg-orange-500 basis-1/2">
             <h1>Bett Kevin</h1>
         </div>
-        <div>
+        <div class="grow basis-1/2 bg-indigo-500">
             <nav>
                 <a href="#info">INFO</a>
                 <a href="#about">ABOUT ME</a>
@@ -26,8 +34,8 @@
     </section>
 
     <!-- Info section -->
-     <section id="info">
-        <div class="description">
+     <section class="grid grid-cols-2 gap-4">
+        <div class="bg-green-200">
             <h2>
                 Full Stack Developer
             </h2>
@@ -48,7 +56,7 @@
             </blockquote>
             <br>
         </div>
-        <div class="avatar">
+        <div class="bg-green-200">
             <img src="./img/avatar.png" alt="my avatar">
         </div>
      </section>
