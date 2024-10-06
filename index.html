@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-   <link rel="stylesheet" href="/css/styles.css">
+  </style>
 </head>
 
 <body class="bg-dark text-white p-4">
@@ -25,7 +25,7 @@
     <!-- Info section -->
      <section class="container">
         <div class="row">
-            <div class="col" id="info">
+            <div class="col">
             <h2>
                 Full Stack Developer
             </h2>
@@ -57,12 +57,11 @@
 
      <!-- About section -->
      <hr>
-    <div class="container">
-        <section class="row">
-                <div class="row" id="about">
-                    <p>ABOUT ME</p>
-                </div>
-            <div class="col">
+      <div id="about">
+        <p>ABOUT ME</p>
+      </div>
+    <section id="about-me">
+        <div class="edu">
             <h3>EDUCATION</h3>
             <ul>
                 <li>
@@ -86,7 +85,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col">
+        <div class="work">
             <h3>WORK EXPERIENCE</h3>
             <ol>
                 <li>
@@ -103,14 +102,11 @@
             </ol>
         </div>
     </section>
-</div>
     <br>
 
       <!-- Projects section -->
        <hr>
-       <div class="container">
-        <div class="row">
-       <div class="col" id="projects">
+       <div id="projects">
         <p>PROJECTS</p>
       </div>
        <section id="proj">
@@ -134,7 +130,7 @@
                         </p>
                     <div class="bhs"> 
                         <a href="http://birir-home-supplies.sokowise.store/" target="_blank">
-                            <img src="./img/Screenshot 2024-09-20 2.12.05 PM.png" alt="Birir Home Supplies" width="100%">
+                            <img src="./img/bhs.png" alt="Birir Home Supplies" width="100%">
                         </a>
                     </div>
                 </div>
@@ -155,7 +151,7 @@
                     </p>
                     <div>
                         <a href="https://d3xtaarts.wordpress.com/" target="_blank">
-                            <img src="./img/Screenshot 2024-09-20 2.07.35 PM.png" alt="D3xtaArts" width="100%">
+                            <img src="./img/d3xta.png" alt="D3xtaArts" width="100%">
                         </a>
                     </div>
                 </div>
@@ -163,22 +159,22 @@
         <!-- end of web dev div -->
 
         <!-- start of ai projects div -->
-            <div class="col">
+            <div>
                 <h3>AI PROJECTS</h3>
-                <div class="col">
+                <div>
                     <h4>Google Teachable Machine</h4>
                     <p>This image recognition model, built using Google’s Teachable Machine, identifies whether an image contains 
                         a cat or a dog. It was trained with custom-uploaded images of cats and dogs to enhance accuracy. When an 
                         image is uploaded or scanned using inbuilt device camera, the model analyzes it and outputs a confidence percentage, 
-                        indicating whether the image is more likely a cat or a dog. The model can be integrated into handheld devices as well as 
-                        desktop/laptop devices or accessed through the website.
+                        indicating whether the image is more likely a cat or a dog. The model will be can work on handheld devices as well as 
+                        desktop/laptop computers. It can be integrated into a website for easy access and use.
                         <br><br>  
                         To use the model click
                         <br>
                         <a href="https://teachablemachine.withgoogle.com/models/ina7LLPKp/">IMAGE RECOGNITION</a>
                     </p>
                 </div>
-                <div class="col">
+                <div>
                     <h4>Music Production</h4>
                     <p>
                         This project focuses on creating high-quality music using Udio, a powerful tool for music production. 
@@ -190,11 +186,11 @@
                         Click on the image below to listen to the song <br>DREAMS OF THE MOTHERLAND.
                         <br><br>
                         <a href="https://www.udio.com/songs/xuyjtb6CcFpvvUWqNL9b9d" target="_blank">
-                            <img src="./img/Screenshot 2024-09-20 3.19.59 PM.png" alt="album cover" width="50%">
+                            <img src="./img/thumbnail.png" alt="album cover" width="50%">
                         </a>
                     </p>
                 </div>
-                <div class="col">
+                <div>
                     <h4>Video production</h4>
                     <p>
                         This project leverages advanced AI tools like Haiper AI and Leonardo AI for image and video generation, 
@@ -209,7 +205,7 @@
                         DREAMS OF THE MOTHERLAND.
                         <br><br>
                         <a href="https://youtu.be/taOr8IhaiVE" target="_blank">
-                            <img src="./img/Screenshot 2024-09-20 3.41.36 PM.png" alt="youtube thumbnail" width="50%">
+                            <img src="./img/thumb.png" alt="youtube thumbnail" width="50%">
                         </a>
                     </p>
                 </div>
@@ -230,14 +226,6 @@
             <p>
                 Terms and conditions apply. <br> Copyright 2024
             </p>
-            <nav class = "col">
-                <a  href="#info">INFO</a>
-                    <a href="#about">ABOUT ME</a>
-                    <a href="#projects">PROJECTS</a>
-                    <a href="#linkup">LINK UP</a>
-                </nav>
        </section>
-    </div>
-    </div>
 </body>
 </html>
