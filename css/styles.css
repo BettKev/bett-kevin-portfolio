@@ -7,16 +7,19 @@
             color: #ffc107;
         }
         nav {
-            background-color: #212529;
+            background-color: #f2f3f5;
         }
         nav a {
-            color: #f8f9fa;
+            color: #1b1b1b;
             margin-right: 15px;
             text-decoration: none;
             font-weight: bold;
         }
         nav a:hover {
-            color: #ffc107;
+            color: #fdfdfb;
+            background: blue;
+            transform: translateY(5px);
+            border-radius: 20px;
         }
         section {
             margin-top: 50px;
