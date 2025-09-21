@@ -6,144 +6,183 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        /* Optional: Add some basic global styles here for consistency if not already in styles.css */
+        body {
+            font-family: 'Arial', sans-serif; /* A more common and readable sans-serif font */
+            line-height: 1.6;
+            color: #333; /* Darker text for better readability */
+            background-color: #f8f9fa; /* Light grey background for a softer look */
+        }
+        .navbar {
+            background-color: #343a40 !important; /* Darker navbar for better contrast */
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important; /* White text for navbar items */
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #cccccc !important; /* Lighter white on hover */
+        }
+        .btn-custom {
+            background-color: #007bff; /* Primary blue for buttons */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        hr {
+            border-top: 1px solid #dee2e6; /* Lighter separator line */
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        h2, h3, h4 {
+            color: #0056b3; /* Consistent heading color */
+        }
+        .social-links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
 
 <body class="container-fluid">
 
-    <!-- Sticky Navbar -->
-<nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid ">
-        <a class="navbar-brand" href="#">Bett Kevin</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #2c3e50; padding: 1rem 0;"> <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 1.8rem; color: #ecf0f1;">Bett Kevin</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="filter: invert(1);"></span> </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#info">INFO</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">ABOUT ME</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
-                <li class="nav-item"><a class="nav-link" href="#linkup">LINK UP</a></li>
+                <li class="nav-item"><a class="nav-link" href="#info" style="color: #ecf0f1; margin-right: 15px;">INFO</a></li> <li class="nav-item"><a class="nav-link" href="#about" style="color: #ecf0f1; margin-right: 15px;">ABOUT ME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects" style="color: #ecf0f1; margin-right: 15px;">PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#linkup" style="color: #ecf0f1;">LINK UP</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <!-- Info Section -->
-    <section id="info" class="container">
-        <div class="row align-items-center">
+    <section id="info" class="container" style="padding: 4rem 0;"> <div class="row align-items-center">
             <div class="col-md-6">
-                <h2><span class="title-text">Full Stack Developer</span></h2>
-                <p style="font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">"Welcome! I'm Kevin Bett, an IT enthusiast who believes in the power of continuous learning. While my full-stack development skills are a great starting point, my passion lies in exploring new technologies and adapting to the ever-changing digital landscape. For me, a challenge isn't a roadblock—it's an opportunity to grow. I'm always seeking out new skills, whether it's diving into a new programming language or mastering a complex cybersecurity framework. I'm eager to bring my adaptability and relentless curiosity to a team that values innovation."</p>
-                <blockquote>
-                    <i>"Empowering Digital Transformation through AI and Web Development."</i>
+                <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem; color: #34495e;"> <span class="title-text" style="border-bottom: 3px solid #3498db; padding-bottom: 5px;">Full Stack Developer</span>
+                </h2>
+                <p style="font-weight: normal; font-family: 'Open Sans', sans-serif; font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 2rem;"> "Welcome! I'm Kevin Bett, an IT enthusiast who believes in the power of continuous learning. While my full-stack development skills are a great starting point, my passion lies in exploring new technologies and adapting to the ever-changing digital landscape. For me, a challenge isn't a roadblockâ€”it's an opportunity to grow. I'm always seeking out new skills, whether it's diving into a new programming language or mastering a complex cybersecurity framework. I'm eager to bring my adaptability and relentless curiosity to a team that values innovation."
+                </p>
+                <blockquote style="border-left: 4px solid #3498db; padding-left: 15px; margin-left: 0; color: #777;"> <i style="font-size: 1.1rem;">"Empowering Digital Transformation through AI and Web Development."</i>
                     <br><br>
                     <a href="https://drive.google.com/file/d/1KsP920qdhL_rLGX327n5XQrO7sNBoOEU/view?usp=sharing" target="_blank">
-                        <button class="btn btn-custom">Resume</button>
-                    </a>
+                        <button class="btn btn-custom" style="padding: 12px 25px; font-size: 1.1rem; border-radius: 50px;">Resume</button> </a>
                 </blockquote>
             </div>
             <div class="col-md-6 text-center">
-                <img src="./img/headshot.jpeg" alt="My headshot" class="img-fluid rounded-circle">
-            </div>
+                <img src="./img/headshot.jpeg" alt="My headshot" class="img-fluid rounded-circle" style="max-width: 80%; border: 5px solid #3498db; box-shadow: 0 0 20px rgba(0,0,0,0.1);"> </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <hr>
-    <section id="about" class="container">
-        <h3 class="text-center mb-4">About Me</h3>
+    <hr style="border-color: #bdc3c7;"> <section id="about" class="container" style="padding: 4rem 0;">
+        <h3 class="text-center mb-4" style="font-size: 2.5rem; color: #34495e;">About Me</h3>
         <div class="row">
-            <div class="col-md-6">
-                <h4>Education</h4>
-                <ul>
-                    <li>ALX ACADEMY - June 2025 to Date <br> Cyber Security</li>
-                    <li>Moringa School - September 2024 to date <br> Software Engineering</li>
-                    <li>ALX ACADEMY - July 2024 to August 2024 <br> AI Career Essentials</li>
-                    <li>Rongo University - 2014 to 2018 <br> Bachelor of Arts in Geography</li>
+            <div class="col-md-6" style="margin-bottom: 2rem;"> <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Education</h4>
+                <ul style="list-style-type: disc; padding-left: 20px;"> <li style="margin-bottom: 10px;">ALX ACADEMY - June 2025 to Date <br><span style="color: #777;">Cyber Security</span></li>
+                    <li style="margin-bottom: 10px;">Moringa School - September 2024 to date <br><span style="color: #777;">Software Engineering</span></li>
+                    <li style="margin-bottom: 10px;">ALX ACADEMY - July 2024 to August 2024 <br><span style="color: #777;">AI Career Essentials</span></li>
+                    <li style="margin-bottom: 10px;">Rongo University - 2014 to 2018 <br><span style="color: #777;">Bachelor of Arts in Geography</span></li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <h4>Work Experience</h4>
-                <ol>
-                    <li>Software Developer - Tech With Brands (2025 March to 2025 July)</li>
-                    <li>AI Specialist - RWS Moravia (2024 to date)</li>
-                    <li>Founder/CEO - Birir Home Supplies (2021 to date)</li>
-                    <li>ICT Technician - SendUs International (2014 to 2018)</li>
-                    <li>Sales Agent - E-mtumba (2016)</li>
+            <div class="col-md-6" style="margin-bottom: 2rem;">
+                <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Work Experience</h4>
+                <ol style="list-style-type: decimal; padding-left: 20px;"> <li style="margin-bottom: 10px;">Software Developer - Tech With Brands (2025 March to 2025 July)</li>
+                    <li style="margin-bottom: 10px;">AI Specialist - RWS Moravia (2024 to date)</li>
+                    <li style="margin-bottom: 10px;">Founder/CEO - Birir Home Supplies (2021 to date)</li>
+                    <li style="margin-bottom: 10px;">ICT Technician - SendUs International (2014 to 2018)</li>
+                    <li style="margin-bottom: 10px;">Sales Agent - E-mtumba (2016)</li>
                 </ol>
+            </div>
+            <div class="col-12" style="text-align: center; margin-top: 2rem;"> <iframe
+                    width="560" height="315"
+                    src="https://www.youtube.com/embed/4pfNujKyv9c"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+                ></iframe>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <hr>
-    <section id="projects" class="container">
-        <h3 class="text-center mb-4">Projects</h3>
+    <hr style="border-color: #bdc3c7;">
+    <section id="projects" class="container" style="padding: 4rem 0;">
+        <h3 class="text-center mb-4" style="font-size: 2.5rem; color: #34495e;">Projects</h3>
 
         <div class="row mb-5">
-            <div class="col-md-6">
-                <h4>Birir Home Supplies</h4>
-                <p>I founded Birir Home Supplies as a technology company in 2021. The goal was to build a technology company that uses the latest in Security and Software Development Technology to create long lasting solutions.</p>
-                <a href="https://www.birirsolutions.xyz/" target="_blank">
-                    <img src="./img/bhs.png" alt="Birir Home Supplies" class="img-fluid project-img">
+            <div class="col-md-6" style="margin-bottom: 2rem;">
+                <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Birir Home Supplies</h4>
+                <p style="color: #555;">I founded Birir Home Supplies as a technology company in 2021. The goal was to build a technology company that uses the latest in Security and Software Development Technology to create long lasting solutions.</p>
+                <a href="https://www.birirsolutions.xyz/" target="_blank" style="display: block;"> <img src="./img/bhs.png" alt="Birir Home Supplies" class="img-fluid project-img" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); transition: transform 0.3s ease;">
                 </a>
             </div>
-            <div class="col-md-6">
-                <h4>Muge Foundation</h4>
-                <p>Muge foundation is a non profit organization that gives easy access to aid for Persons with Disability.</p>
-                <a href="https://mugefoundation.birirsolutions.xyz/" target="_blank">
-                    <img src="./img/muge_foundation.png" alt="D3xtaArts Photography" class="img-fluid project-img">
+            <div class="col-md-6" style="margin-bottom: 2rem;">
+                <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Muge Foundation</h4>
+                <p style="color: #555;">Muge foundation is a non profit organization that gives easy access to aid for Persons with Disability.</p>
+                <a href="https://mugefoundation.birirsolutions.xyz/" target="_blank" style="display: block;">
+                    <img src="./img/muge_foundation.png" alt="D3xtaArts Photography" class="img-fluid project-img" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); transition: transform 0.3s ease;">
                 </a>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <h4>Google Teachable Machine</h4>
-                <p>This image recognition model, built using Google’s Teachable Machine...</p>
-                <a href="https://teachablemachine.withgoogle.com/models/ina7LLPKp/" target="_blank">
-                    <img src="./img/thumbnail.png" alt="Album cover" class="img-fluid project-img">
+            <div class="col-md-6" style="margin-bottom: 2rem;">
+                <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Google Teachable Machine</h4>
+                <p style="color: #555;">This image recognition model, built using Googleâ€™s Teachable Machine...</p>
+                <a href="https://teachablemachine.withgoogle.com/models/ina7LLPKp/" target="_blank" style="display: block;">
+                    <img src="./img/thumbnail.png" alt="Album cover" class="img-fluid project-img" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); transition: transform 0.3s ease;">
                 </a>
             </div>
-            <div class="col-md-6">
-                <h4>Music Production</h4>
-                <p>High-quality music using Udio, a powerful tool for music production...</p>
-                <a href="https://www.udio.com/songs/xuyjtb6CcFpvvUWqNL9b9d" target="_blank">
-                    <img src="./img/thumbnail.png" alt="Album cover" class="img-fluid project-img">
+            <div class="col-md-6" style="margin-bottom: 2rem;">
+                <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Music Production</h4>
+                <p style="color: #555;">High-quality music using Udio, a powerful tool for music production...</p>
+                <a href="https://www.udio.com/songs/xuyjtb6CcFpvvUWqNL9b9d" target="_blank" style="display: block;">
+                    <img src="./img/thumbnail.png" alt="Album cover" class="img-fluid project-img" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); transition: transform 0.3s ease;">
                 </a>
             </div>
         </div>
 
-        <!-- Video Production Section -->
-<div class="mt-5">
-    <h4>Video Production</h4>
-    <p>
-        Leveraging advanced AI tools like Haiper AI and Leonardo AI, combined with CapCut for video editing, 
-        this project demonstrates how AI enhances the video production process. 
+        <div class="mt-5" style="text-align: center; padding: 2rem 0;">
+    <h4 style="font-size: 1.8rem; color: #3498db; margin-bottom: 1rem;">Video Production</h4>
+    <p style="color: #555; max-width: 800px; margin: 0 auto 1.5rem;">
+        Leveraging advanced AI tools like Haiper AI and Leonardo AI, combined with CapCut for video editing,
+        this project demonstrates how AI enhances the video production process.
         The result: dynamic, polished, and visually captivating videos.
     </p>
-    <p>
+    <p style="color: #555; margin-bottom: 1.5rem;">
         Click below to listen to the song *Dreams of the Motherland*:
     </p>
-    <a href="https://youtu.be/taOr8IhaiVE" target="_blank">
-        <img src="./img/thumb.png" alt="YouTube Thumbnail" class="img-fluid project-img" style="max-width: 70%;">
+    <a href="https://youtu.be/taOr8IhaiVE" target="_blank" style="display: inline-block;">
+        <img src="./img/thumb.png" alt="YouTube Thumbnail" class="img-fluid project-img" style="max-width: 70%; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
     </a>
 </div>
 
     </section>
 
-    <!-- Link Up Section -->
-    <hr>
-    <section id="linkup" class="container text-center">
-        <h3 class="mb-4">Link Up With Me</h3>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">GitHub</a>
+    <hr style="border-color: #bdc3c7;">
+    <section id="linkup" class="container text-center" style="padding: 4rem 0;">
+        <h3 class="mb-4" style="font-size: 2.5rem; color: #34495e;">Link Up With Me</h3>
+        <div class="social-links" style="margin-bottom: 2rem;">
+            <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 1.1rem; transition: color 0.3s ease;">LinkedIn</a>
+            <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 1.1rem; transition: color 0.3s ease;">Twitter</a>
+            <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 1.1rem; transition: color 0.3s ease;">Facebook</a>
+            <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 1.1rem; transition: color 0.3s ease;">Instagram</a>
+            <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 15px; font-size: 1.1rem; transition: color 0.3s ease;">GitHub</a>
         </div>
-        <p class="mt-4">Terms and conditions apply.<br>Copyright 2024</p>
+        <p class="mt-4" style="color: #777; font-size: 0.9rem;">Terms and conditions apply.<br>Copyright 2024</p>
     </section>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
